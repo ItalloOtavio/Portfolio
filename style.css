@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.principal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.pessoal {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.pessoal h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+
+/*Sobre*/
+.sobre{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/*tecnologias*/
+.Tec {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.Tec img {
+    margin: 0 10px;
+}
+/*projetos*/
+.projetos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.projetos h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projeto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.projeto-info {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.projeto-info h3 {
+    font-size: 1.6em;
+    margin-top: 0;
+    color: #007bff;
+}
+
+.projeto-info p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/*contato*/
+.contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.contato textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contato button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contato button:hover {
+    background-color: #0056b3;
+}
